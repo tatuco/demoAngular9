@@ -1,0 +1,12 @@
+<div>
+  <h1>Producto {{product.id}}</h1>
+  <div class="card mt-3 p-3">
+    <h2>
+      <a [routerLink]="['/products/', product.id]">{{product.name}}</a>
+    </h2>
+    <div>Categoria: {{product.category}}</div>
+    <div>Descripcion: {{product.description}}</div>
+    <div>Precio: {{product.price}}</div>
+  </div>
+  <button class="btn btn-primary mt-3" (click)="onGoBack()"> Go Back </button>
+</div>

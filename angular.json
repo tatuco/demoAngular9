@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "cursoUdemyAngular9"
+    }
+  },
+  "defaultProject": "cursoUdemyAngular9",
+  "cli": {
+    "analytics": "ac83f9e6-e8c7-40b2-8271-b9a79d6141ea"
+  }
 }
